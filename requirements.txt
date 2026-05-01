@@ -1,0 +1,26 @@
+# ============================================================
+# Embodied AI Agent System - Requirements
+# ============================================================
+
+# LLM API (OpenAI-compatible, supports Claude, Qwen, etc.)
+openai>=1.30.0
+
+# Web Framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+websockets>=12.0
+
+# Configuration
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+
+# ROS1 (install via apt, here for reference)
+# rospkg>=1.5.0
+
+# Mock execution for testing without hardware
+# (no extra dependency)
+
+# Logging & Utilities
+python-dotenv>=1.0.0
+rich>=13.7.0
+pyyaml>=6.0
